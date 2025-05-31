@@ -156,6 +156,18 @@
     color: var(--text-color);
 }
 
+.main__inner-article li p {
+    margin: 0;
+}
+
+.main__inner-article li p:not(:last-child) {
+    margin-block-end: 10px;
+}
+
+.main__inner-article .main__inner-article .main__title-decor {
+    margin-block-end: 10px;
+}
+
 .main__title-decor {
     margin-block-end: 10px;
 }
@@ -212,7 +224,7 @@
         --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     }
 
-    .title {
+    .header__title {
         margin-inline-start: -20px;
     }
 
